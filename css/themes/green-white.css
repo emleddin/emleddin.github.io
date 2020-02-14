@@ -1,0 +1,37 @@
+/* Theme */
+
+main {
+	/* background: #006818; */
+	background: #005714;
+	color: #FFFFFF;
+}
+
+.icons-social a {
+	color: #FFFFFF;
+}
+
+.icons-social a svg path{
+	fill: #FFFFFF;
+}
+
+/* Overwrite link coloration */
+/* unvisited link -- light blue */
+a:link {
+  /* color: red; */
+  color: #00FFFD;
+}
+
+/* visited link -- yellow */
+a:visited {
+  color: #FFF396;
+}
+
+/* mouse over link -- pink */
+a:hover {
+  color: #F8E0FF;
+}
+
+/* selected link -- lilac */
+a:active {
+  color: #F3E0FF;
+}
