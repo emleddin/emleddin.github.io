@@ -1,0 +1,46 @@
+/*
+Dark green: #005714
+Mint: #7EFF9C
+Salmon: #FF9C7E
+*/
+
+.bg-primary {
+	/* Green! */
+	background-color: #7EFF9C !important;
+	color: black;
+}
+
+.bg-light {
+    background-color: #FF9C7E !important;
+}
+
+/* Redefine some card styles */
+.card {
+  border: 2px solid #333;
+  border-radius: 0.25rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-title {
+	font-weight: bold;
+    text-align: center;
+}
+
+.card-footer {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-top: none;
+}
+
+.header {
+    padding:1em 0;
+}
+
+.container {
+    padding:1em 0;
+}

@@ -1,9 +1,17 @@
 /* Theme */
 
-main {
+body {
 	/* background: #006818; */
-	background: #005714;
-	color: #FFFFFF;
+	/* background: #005714; */
+	background: white;
+	color: black;
+	/* color: #FFFFFF; */
+}
+
+.bg-primary {
+	/* Green! */
+	background-color: #005714 !important;
+	color: white;
 }
 
 .icons-social a {
@@ -14,24 +22,43 @@ main {
 	fill: #FFFFFF;
 }
 
-/* Overwrite link coloration */
-/* unvisited link -- light blue */
+/* Overwrite link coloration for cards */
 a:link {
-  /* color: red; */
-  color: #00FFFD;
+	color: #0000FF; /* Blue */
 }
 
-/* visited link -- yellow */
 a:visited {
-  color: #FFF396;
+	color: #005714; /* Green */
 }
 
-/* mouse over link -- pink */
 a:hover {
-  color: #F8E0FF;
+	/* Purple */
+	/* color: #8100A8; */
+	color: #007e1d;
 }
 
-/* selected link -- lilac */
 a:active {
-  color: #F3E0FF;
+	/* Kinda Pink */
+	color: #7C267E;
+}
+
+.card {
+	background-color: white;
+}
+
+.card-body {
+	color: black;
+}
+
+.button {
+	font-size: 16px;
+	text-decoration: none;
+	background-color: #EDEDED;
+	color: #333333;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #333333;
+	border-radius: 5px;
 }

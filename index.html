@@ -3,8 +3,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
 	<title>Emmett Leddin | Landing</title>
 
@@ -12,38 +13,372 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<!-- <link rel="stylesheet" href="css/themes/indigo-white.css"> -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="css/themes/green-white.css">
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
+	<link rel="stylesheet" href="css/themes/custom.css">
+	<script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<main>
-		<div class="intro">Hello, I'm Emmett!</div>
-		<div class="tagline">PhD Candidate | Computational Biochemistry</div>
-		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/emleddin" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-			<!-- <a target="_blank" href="https://emleddin.github.io/comp-chem-website/index.html" aria-label="Comp Chem Website"><i class="fas fa-atom" aria-hidden="true"></i></a> -->
-			<!-- <a target="_blank" href="https://twitter.com/" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://dev.to/" aria-label="Dev"><i class="fab fa-dev" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://stackoverflow.com/story/" aria-label="StackOverflow"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/in/" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://medium.com/" aria-label="Medium"><i class="fab fa-medium" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://www.freecodecamp.org" aria-label="Free Code Camp"><i class="fab fa-free-code-camp" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://www.behance.net" aria-label="Behance"><i class="fab fa-behance" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://codepen.io" aria-label="Code Pen"><i class="fab fa-codepen" aria-hidden="true"></i></a> -->
-    </div>
-	<!-- <div class="info">Click the atom above to go to the computational chemistry page!</div> -->
-    <div class="info"><a href="https://emleddin.github.io/comp-chem-website/index.html">Computational Chemistry Website</a></div>
-    <div class="info"><a href="https://emleddin.github.io/2020-06-05-py-tutorial/">OpenMM and MDAnalysis Tutorial</a></div>
+	<main role="main">
+	<section class="header bg-primary text-center">
+		<div class="container">
+			<div class="h1">Emmett Leddin</div>
+			<div class="h2">PhD Candidate | Computational Biochemistry</div>
+		</div>
+	</section>
+
+<!--
+#############################################
+##               Publications
+#############################################
+ -->
+
+	<!-- Publications heading -->
+	<section class="text-center">
+		<div class="container">
+			<p class="h2">
+				Publications
+			</p>
+		</div>
+		<!-- Add 1 row of 3 cards -->
+		<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card h-100">
+					<div class="card-body">
+						<p class="card-title">October 2019</p>
+						<p class="card-text" style="font-style: italic;">
+							Comparison of DNA and RNA Substrate Effects on TET2 Structure
+						</p>
+					</div>
+					<div class="card-footer mx-auto">
+						<a href="https://doi.org/10.1016/bs.apcsb.2019.05.002" class="button"><i class="fas fa-bookmark" aria-hidden="true"></i> APCSB</a>
+					</div>
+				</div>
+			</div>
+		  	<div class="col-md-4">
+				<div class="card h-100">
+			   		<div class="card-body">
+						<p class="card-title">November 2018</p>
+						<p class="card-text" style="font-style: italic;">
+							Selectivity and Promiscuity in TET-mediated oxidation of 5-methylcytosine in DNA and RNA
+						</p>
+					</div>
+					<div class="card-footer mx-auto">
+						<a href="https://doi.org/10.1021/acs.biochem.8b00912" class="button"><i class="fas fa-bookmark" aria-hidden="true"></i> Biochemistry</a>
+					</div>
+				</div>
+		  	</div>
+		  	<div class="col-md-4">
+				<div class="card h-100">
+			   		<div class="card-body">
+						<p class="card-title">July 2018</p>
+						<p class="card-text" style="font-style: italic;">
+							Characterization of nine cancer-associated variants in human DNA polymerase kappa
+						</p>
+					</div>
+					<div class="card-footer mx-auto">
+						<a href="https://doi.org/10.1021/acs.chemrestox.8b00055" class="button"><i class="fas fa-bookmark" aria-hidden="true"></i> Chem. Res. Tox.</a>
+					</div>
+				</div>
+		  	</div>
+		</div>
+		</div>
+		<!-- End Row 1 -->
+	</section>
+
+<!--
+#############################################
+##            GitHub Projects
+#############################################
+ -->
+
+	<!-- GitHub projects heading -->
+	<section class="bg-light text-center">
+		<div class="container">
+			<p class="h2">
+				GitHub Projects
+			</p>
+		</div>
+
+	<!-- Add 1 row of 3 cards -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">Computational Chemistry Website</p>
+					<div class="card-img">
+						<img src="images/ccw.png" class="card-img-top" alt="atoms showing vacuum, implicit, and explicit solvation">
+					</div>
+					<p class="card-text">
+						My website with guides for getting started with UNIX, AMBER, simulation analysis, and R.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://emleddin.github.io/comp-chem-website/index.html" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+	  	<div class="col-md-4">
+			<div class="card h-100">
+		   		<div class="card-body">
+					<p class="card-title">Research Scripts</p>
+					<div class="card-img">
+						<img src="images/research-scripts.png" class="card-img-top" alt="scatterplot">
+					</div>
+					<p class="card-text">
+						Different run and analysis scripts as described on the Computational Chemistry Website.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/research-scripts" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+	  	</div>
+	  	<div class="col-md-4">
+			<div class="card h-100">
+		   		<div class="card-body">
+					<p class="card-title">PDBXYZ and XYZPDB</p>
+					<div class="card-img">
+						<img src="images/pdbxyz.png" class="card-img-top" alt="protein structure">
+					</div>
+					<p class="card-text">
+						Scripts to convert between PDB to XYZ files, without using the existing TINKER programs for conversion.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/pdbxyz-xyzpdb" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+	  	</div>
+	</div>
+	</div>
+	<!-- End Row 1 -->
+	<!-- Start Row 2 -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">Vim Cpptraj</p>
+					<div class="card-img">
+						<img src="images/vim-cpptraj.png" class="card-img-top" alt="vim screenshot">
+					</div>
+					<p class="card-text">
+						Syntax highlighting for <code>cpptraj</code> in <code>vim</code>.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/vim-cpptraj" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">VSCode Cpptraj</p>
+					<div class="card-img">
+						<img src="images/vscode-cpptraj.png" class="card-img-top" alt="VS Code screenshot">
+					</div>
+					<p class="card-text">
+						Syntax highlighting for <code>cpptraj</code> in Visual Studio Code.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/vsc-lang-cpptraj" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">Atom Cpptraj</p>
+					<div class="card-img">
+						<img src="images/atom-cpptraj.png" class="card-img-top" alt="Atom screenshot">
+					</div>
+					<p class="card-text">
+						Syntax highlighting for <code>cpptraj</code> in the Atom text editor.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/language-cpptraj" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- End row 2 -->
+	<!-- Start row 3 -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">THRIVE Lifeline Resource Table</p>
+					<div class="card-img">
+						<img src="images/thrive-resource-table.png" class="card-img-top" alt="table screenshot">
+					</div>
+					<p class="card-text">
+						A table rendered using the <code>DT</code> package for RMarkdown.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/ThriveLifeline/resource-table" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+	  	<div class="col-md-4">
+			<div class="card h-100">
+		   		<div class="card-body">
+					<p class="card-title">THRIVE Lifeline Resource App</p>
+					<div class="card-img">
+						<img src="images/thrive-shiny-app.png" class="card-img-top" alt="table screenshot">
+					</div>
+					<p class="card-text">
+						An R Shiny app to render a CSV.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/ThriveLifeline/thrive-resource-app" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+	  	</div>
+	</div>
+	</div>
+	<!-- End Row 3 -->
+	</section>
+
+<!--
+#############################################
+##               Tutorials
+#############################################
+ -->
+
+	<!-- Tutorials heading -->
+	<section class="text-center">
+		<div class="container">
+			<p class="h2">
+				Tutorials
+			</p>
+		</div>
+
+	<!-- Add 1 row of 3 cards -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">LICHEM Tutorial</p>
+					<!-- <div class="card-img">
+						<img src="images/LICHEM.png" class="card-img-top" alt="LICHEM logo">
+					</div> -->
+					<p class="card-text">
+						A tutorial for performing quantum mechanics/molecular mechanics (QM/MM) simulations with LICHEM.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/LICHEM-tutorial" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+	  	<div class="col-md-6">
+			<div class="card h-100">
+		   		<div class="card-body">
+					<p class="card-title">OpenMM and MDAnalysis Tutorial</p>
+					<p class="card-text">
+						A tutorial for setting up and analyzing molecular dynamics simulations with Python.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://emleddin.github.io/2020-06-05-py-tutorial/" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+	  	</div>
+	</div>
+	</div>
+	</section>
+	<!-- End Row 1 -->
+
+<!--
+#############################################
+##               Hackathons
+#############################################
+ -->
+
+	<!-- Tutorials heading -->
+	<section class="bg-primary text-center">
+		<div class="container">
+			<p class="h2">
+				Hackathons
+			</p>
+		</div>
+
+	<!-- Add 1 row of 3 cards -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card h-100">
+				<div class="card-body">
+					<p class="card-title">Queers in Crisis</p>
+					<div class="card-img">
+						<img src="images/QueersInCrisis.png" class="card-img-top" alt="presentation slide for Queers in Crisis">
+					</div>
+					<p class="card-text">
+						2020 Hackathon Project for oSTEM modifying the presentation of their site's crisis resources.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/QueersInCrisis" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+		</div>
+	  	<div class="col-md-6">
+			<div class="card h-100">
+		   		<div class="card-body">
+					<p class="card-title">Narwhal App</p>
+					<div class="card-img">
+						<img src="images/narwhal-app.png" class="card-img-top" alt="app tile layout">
+					</div>
+					<p class="card-text">
+						2019 Hackathon Project for oSTEM creating a phone app for voter resources.
+					</p>
+				</div>
+				<div class="card-footer mx-auto">
+					<a href="https://github.com/emleddin/NarwhalApp" class="button"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+				</div>
+			</div>
+	  	</div>
+	</div>
+	</div>
+	</section>
+	<!-- End Row 1 -->
+
+<!--
+#############################################
+##                  CV
+#############################################
+ -->
+
+	<!-- Section for links -->
+	<section class="text-center">
+		<div class="container ">
+			<p class="h2">
+				CV
+			</p>
+		</div>
+
+	<iframe src="https://docs.google.com/viewer/viewer?url=https://github.com/emleddin/CV/raw/main/EML-CV-GH.pdf&embedded=true" style="width:75%; height:500px;" frameborder="0"></iframe>
+	</section>
+
 	</main>
 </body>
+
+<section class="footer">
+	<p class="text-center" style="font-size: 60px">
+	  <a target="_blank" href="https://github.com/emleddin" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+	</p>
+</section>
+
 </html>
