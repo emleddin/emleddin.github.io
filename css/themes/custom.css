@@ -44,3 +44,9 @@ Salmon: #FF9C7E
 .container {
     padding:1em 0;
 }
+
+/* Change link colors on the mint green only */
+.bg-primary a:link { color: #0000C7; }
+.bg-primary a:visited { color: #6C2975; }
+.bg-primary a:hover { color: #063734; }
+.bg-primary a:active { color: #0000C7; }
