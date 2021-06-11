@@ -26,6 +26,14 @@ Salmon: #FF9C7E
     object-fit: cover;
 }
 
+.card-img-pub {
+    width: 100%;
+    /* height: 15vw; */
+    height: 10vw;
+    /* object-fit: cover; */
+	object-fit: contain;
+}
+
 .card-title {
 	font-weight: bold;
     text-align: center;
